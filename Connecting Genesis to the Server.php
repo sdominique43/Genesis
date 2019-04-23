@@ -6,7 +6,7 @@
   $dbname = "GenesisDatabase";
   
   //Create connection
-  $conn = new mysqli(genesisdatabasethesecondcoming.crlaiqpdndku.us-east-2.rds.amazonaws.com, GenesisCreators, wewillpassthisclass, GenesisDatabase); 
+  $conn = new mysqli($servername, $username, $password, $dbname); 
   
   // Check connection 
   if(mysqli_connect_error()) 
