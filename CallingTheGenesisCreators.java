@@ -42,9 +42,9 @@ public class  CallingTheGenesisCreators extends Connectivity{
 		   try {
 		   Connection conn =  DriverManager.getConnection(
 	       "jdbc:postgresql://genesisdatabasethesecondcoming.crlaiqpdndku.us-east-2.rds.amazonaws.com:5432/GenesisCreators?user=GenesisCreators&password=wewillpassthisclass");
-
+//                 This part of code is use to update the database
 //		   String newUser = "Tracy Graves";
-//	       String sql = "INSERT INTO user_inform(username, user_id) VALUES(?, ?)";
+//	           String sql = "INSERT INTO user_inform(username, user_id) VALUES(?, ?)";
 //		   PreparedStatement pst = conn.prepareStatement(sql);
 //
 //	            pst.setString(1, newUser);
